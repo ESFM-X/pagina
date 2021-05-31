@@ -7295,6 +7295,8 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  padding-top: 100px;
+  max-width: 60%;
 }
 
 .text-decoration-none {
@@ -10846,14 +10848,17 @@ html {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  max-width: 100%!important;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
   font-size: 3rem;
+  max-width: 100%!important;
 }
 .content-section-heading h3, .content-section-heading .h3 {
   font-size: 1rem;
   text-transform: uppercase;
+  max-width: 100%!important;
 }
 
 .text-faded {
@@ -10973,9 +10978,11 @@ html {
 .callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+
 }
 .callout h2, .callout .h2 {
   font-size: 3.5rem;
@@ -11027,10 +11034,27 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
-  background-position: center center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/masthead.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  
+}
+.masthead2{
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  background: url("../assets/img/degradado.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
