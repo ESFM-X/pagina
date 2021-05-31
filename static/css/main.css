@@ -10991,6 +10991,19 @@ html {
   max-width: 30rem;
 }
 
+@media only screen and (max-device-width: 1366px ){
+  
+  .callout {
+    padding: 15rem 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+  }
+}
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -11055,6 +11068,31 @@ footer.footer .social-link:hover {
   background-size: cover;
   background-attachment: fixed;
   
+}
+@media only screen and (max-device-width: 1366px){
+  .masthead{
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .text-center{
+    text-align: center !important;
+    padding-top: 100px;
+    max-width: 100%;
+
+  }
+  .masthead2{
+    background: url("../assets/img/degradados.png");
+  }
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
