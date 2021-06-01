@@ -3,6 +3,22 @@
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
 */
+
+var text = ["Dirección general - generalmgt@esfm-x.com", "Financiación - financing@esfm-x.com", "TI - technology@esfm-x.com", "Comunicaciones - communications@esfm-x.com"];
+var counter = 0;
+var elem = document.getElementById("changeText");
+var inst = setInterval(change, 3000);
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }
+}
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
     const sidebarWrapper = document.getElementById('sidebar-wrapper');
