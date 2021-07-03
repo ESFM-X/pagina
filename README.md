@@ -3,7 +3,6 @@ Una página simple que da a conocer ESFM-X y sus proyectos.
 
 ## Sitio 🚀
 
-La ifnormación del sitio se va actualizando conforme van publicando los horarios.
 
 🔗: [esfm-x.com][https://esfm-x.com)
 
