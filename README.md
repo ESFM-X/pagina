@@ -4,7 +4,7 @@ Una página simple que da a conocer ESFM-X y sus proyectos.
 ## Sitio 🚀
 
 
-🔗: [esfm-x.com][https://esfm-x.com)
+🔗: [esfm-x.com](https://esfm-x.com)
 
 
 ## Construido con 🛠️
