@@ -10977,7 +10977,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: url("../assets/img/bg-callout.jpg");
+  background: url("https://i.ibb.co/ZShXqQw/R9DLRA8.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10995,7 +10995,7 @@ html {
   
   .callout {
     padding: 15rem 0;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://i.ibb.co/ZShXqQw/R9DLRA8.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11047,7 +11047,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background:  url("../assets/img/masthead.png");
+  background:  url("https://i.ibb.co/PTcKjYV/RNCB7SU.jpg");
   /* linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),  */
   background-position: center;
   background-repeat: no-repeat;
@@ -11055,6 +11055,7 @@ footer.footer .social-link:hover {
   background-attachment: fixed;
   
 }
+
 .masthead2{
   min-height: 30rem;
   position: relative;
@@ -11063,13 +11064,14 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 5rem;
   padding-bottom: 1rem;
-  background: url("../assets/img/degradado.png");
+  background: url("https://i.ibb.co/nMSGfX1/R6CVFVV.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   
 }
+
 @media only screen and  (max-device-width: 500px ) {
   .masthead{
     min-height: 30rem;
@@ -11079,7 +11081,7 @@ footer.footer .social-link:hover {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(136, 90, 90, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+    background: linear-gradient(90deg, rgba(136, 90, 90, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://i.ibb.co/Xxcrg9Z/RGMNDGW.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
